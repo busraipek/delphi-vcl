@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.882,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.698,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.249,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.975,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.737,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.832,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.331,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.115,C:\Users\90505\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.975,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2024.07.09 19:19:08.765,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2024.07.09 19:20:11.101,C:\Users\90505\Documents\Embarcadero\Studio\Projects\TranslateService.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2024.07.09 19:24:34.266,C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024.07.09 19:24:34.266,C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.dfm=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024.07.09 19:24:44.795,C:\Users\90505\Documents\Embarcadero\Studio\Projects\homepage.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.pas</Transaction>
+    <Transaction>2024.07.09 19:24:44.795,C:\Users\90505\Documents\Embarcadero\Studio\Projects\homepage.dfm=C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.dfm</Transaction>
+    <Transaction>2024.07.09 19:27:35.264,C:\Users\90505\Documents\Embarcadero\Studio\Projects\database.dfm=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024.07.09 19:27:35.264,C:\Users\90505\Documents\Embarcadero\Studio\Projects\database.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024.07.09 19:28:06.741,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
