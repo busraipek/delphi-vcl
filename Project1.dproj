@@ -106,13 +106,14 @@
             <Form>Form2</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="Unit3.pas">
-            <Form>Form3</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="TranslateService.pas"/>
-        <DCCReference Include="Unit1.pas">
+        <DCCReference Include="translate.pas">
             <Form>Frame1</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="note.pas">
+            <Form>Frame2</Form>
             <FormType>dfm</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>

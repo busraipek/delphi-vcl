@@ -1,0 +1,14 @@
+object Frame2: TFrame2
+  Left = 0
+  Top = 0
+  Width = 745
+  Height = 550
+  TabOrder = 0
+  object ColorBox1: TColorBox
+    Left = 144
+    Top = 168
+    Width = 145
+    Height = 22
+    TabOrder = 0
+  end
+end

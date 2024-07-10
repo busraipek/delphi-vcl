@@ -3,19 +3,22 @@ unit homepage;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls, Vcl.ExtCtrls,Unit3,
-  Vcl.WinXPickers;
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls,
+  Vcl.ExtCtrls, translate,note,
+  Vcl.WinXPickers, Vcl.Menus;
 
 type
   TForm1 = class(TForm)
-    ListBox1: TListBox;
     Panel1: TPanel;
-    DatePicker1: TDatePicker;
+    ListBox1: TListBox;
     procedure FormCreate(Sender: TObject);
+    procedure ListBox1Click(Sender: TObject);
   private
     { Private declarations }
-    FForm3 : unit3.TForm3;
+    translate: translate.TFrame1;
+    note : note.TFrame2;
   public
     { Public declarations }
   end;
@@ -29,15 +32,35 @@ implementation
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-     ListBox1.Margins.Left := 0;
-     ListBox1.Margins.Top := 0;
-     ListBox1.Margins.Bottom := 0;
+  ListBox1.Margins.Left := 0;
+  ListBox1.Margins.Top := 0;
+  ListBox1.Margins.Bottom := 0;
 
-    FForm3 := TForm3.Create(Self);
-    FForm3.Parent := Panel1;
-    FForm3.Align := alClient;
-    FForm3.BorderStyle := bsNone;
-    fform3.Show;
+    translate := TFrame1.Create(Self);
+    translate.Parent := Panel1;
+    translate.Align := alClient;
+end;
+
+procedure TForm1.ListBox1Click(Sender: TObject);
+begin
+  if (ListBox1.Selected[0] = true) then
+  begin
+    translate := TFrame1.Create(Self);
+    translate.Parent := Panel1;
+    translate.Align := alClient;
+  end
+  else if (ListBox1.Selected[1] = true) then
+  begin
+    note := TFrame2.Create(Self);
+    note.Parent := Panel1;
+    note.Align := alClient;
+  end
+  else if (ListBox1.Selected[2] = true) then
+  begin
+    translate := TFrame1.Create(Self);
+    translate.Parent := Panel1;
+    translate.Align := alClient;
+  end;
 end;
 
 end.

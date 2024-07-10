@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 551
+  ClientHeight = 550
   ClientWidth = 962
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -13,42 +13,26 @@ object Form1: TForm1
   OnCreate = FormCreate
   TextHeight = 15
   object Panel1: TPanel
-    Left = 241
+    AlignWithMargins = True
+    Left = 217
     Top = 0
-    Width = 721
-    Height = 551
+    Width = 745
+    Height = 550
+    Margins.Left = 0
+    Margins.Top = 0
+    Margins.Right = 0
+    Margins.Bottom = 0
     Align = alClient
-    Caption = 'Panel1'
     TabOrder = 1
-    ExplicitWidth = 715
-    ExplicitHeight = 542
-    object DatePicker1: TDatePicker
-      Left = 568
-      Top = 0
-      Width = 152
-      Height = 41
-      Margins.Left = 0
-      Margins.Top = 0
-      Margins.Right = 0
-      Margins.Bottom = 0
-      Date = 45482.000000000000000000
-      DateFormat = 'd/mm/yyyy'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -20
-      Font.Name = 'Segoe UI'
-      Font.Pitch = fpFixed
-      Font.Style = []
-      Font.Quality = fqDraft
-      TabOrder = 0
-    end
+    ExplicitLeft = 225
+    ExplicitWidth = 740
   end
   object ListBox1: TListBox
     AlignWithMargins = True
     Left = 0
     Top = 0
-    Width = 241
-    Height = 551
+    Width = 217
+    Height = 550
     Margins.Left = 0
     Margins.Top = 0
     Margins.Right = 0
@@ -70,6 +54,6 @@ object Form1: TForm1
     ParentCtl3D = False
     ParentFont = False
     TabOrder = 0
-    ExplicitHeight = 542
+    OnClick = ListBox1Click
   end
 end
