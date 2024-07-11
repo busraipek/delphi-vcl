@@ -19,6 +19,9 @@ type
     { Private declarations }
     translate: translate.TFrame1;
     note : note.TFrame2;
+    CurrentFrame: TFrame;
+    ExFrame : TFrame;
+    procedure RemoveCurrentFrame;
   public
     { Public declarations }
   end;
@@ -36,30 +39,45 @@ begin
   ListBox1.Margins.Top := 0;
   ListBox1.Margins.Bottom := 0;
 
-    translate := TFrame1.Create(Self);
-    translate.Parent := Panel1;
-    translate.Align := alClient;
+  translate := TFrame1.Create(Self);
+  translate.Parent := Panel1;
+  translate.Align := alClient;
+  CurrentFrame := translate;
+end;
+
+procedure TForm1.RemoveCurrentFrame();
+begin
+  if Assigned(CurrentFrame) then
+  begin
+    CurrentFrame.Parent := nil;
+    FreeAndNil(CurrentFrame);
+  end;
 end;
 
 procedure TForm1.ListBox1Click(Sender: TObject);
 begin
-  if (ListBox1.Selected[0] = true) then
+  RemoveCurrentFrame;
+
+  if (ListBox1.ItemIndex = 0) then
   begin
     translate := TFrame1.Create(Self);
     translate.Parent := Panel1;
     translate.Align := alClient;
+    CurrentFrame := translate;
   end
-  else if (ListBox1.Selected[1] = true) then
+  else if (ListBox1.ItemIndex = 1) then
   begin
     note := TFrame2.Create(Self);
     note.Parent := Panel1;
     note.Align := alClient;
+    CurrentFrame := note;
   end
-  else if (ListBox1.Selected[2] = true) then
+  else if (ListBox1.ItemIndex = 2) then
   begin
     translate := TFrame1.Create(Self);
     translate.Parent := Panel1;
     translate.Align := alClient;
+    CurrentFrame := translate;
   end;
 end;
 

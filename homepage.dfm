@@ -1,9 +1,10 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Form1'
-  ClientHeight = 550
-  ClientWidth = 962
+  BorderStyle = bsToolWindow
+  Caption = 'my-app'
+  ClientHeight = 561
+  ClientWidth = 966
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,23 +17,23 @@ object Form1: TForm1
     AlignWithMargins = True
     Left = 217
     Top = 0
-    Width = 745
-    Height = 550
+    Width = 749
+    Height = 561
     Margins.Left = 0
     Margins.Top = 0
     Margins.Right = 0
     Margins.Bottom = 0
     Align = alClient
     TabOrder = 1
-    ExplicitLeft = 225
-    ExplicitWidth = 740
+    ExplicitWidth = 739
+    ExplicitHeight = 541
   end
   object ListBox1: TListBox
     AlignWithMargins = True
     Left = 0
     Top = 0
     Width = 217
-    Height = 550
+    Height = 561
     Margins.Left = 0
     Margins.Top = 0
     Margins.Right = 0
@@ -55,5 +56,6 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 0
     OnClick = ListBox1Click
+    ExplicitHeight = 541
   end
 end
