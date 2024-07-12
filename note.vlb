@@ -1,8 +1,5 @@
-﻿[RichEdit1]
+﻿[]
 Coordinates=358,10,61,33
-
-[]
-Coordinates=10,10,97,177
 ExplicitSubNodes=Font.Color
 LayerNames=ccc
 Visible=True

@@ -9,11 +9,13 @@ uses
   Vcl.JumpList, Vcl.ComCtrls, Vcl.Grids, Vcl.ValEdit, Vcl.ActnList,
   System.Actions, Vcl.StdActns, Data.Bind.EngExt, Vcl.Bind.DBEngExt,
   System.Rtti, System.Bindings.Outputs, Vcl.Bind.Editors, Data.Bind.Components,
-  Vcl.CustomizeDlg;
+  Vcl.CustomizeDlg, Vcl.WinXPickers,database;
 
 type
   TFrame2 = class(TFrame)
-    RichEdit1: TRichEdit;
+    ComboBox1: TComboBox;
+    DatePicker1: TDatePicker;
+    StringGrid1: TStringGrid;
   private
     { Private declarations }
   public
@@ -31,7 +33,15 @@ constructor TFrame2.Create(AOwner: TComponent);
 begin
   inherited Create(AOwner);
 
+  StringGrid1.Cols[0].Text := 'renk';
+  StringGrid1.Cols[1].Text := 'tarih';
+  StringGrid1.Cols[2].Text := 'durum';
+  StringGrid1.Cols[3].Text := 'konu';
+  StringGrid1.Cols[4].Text := 'devam';
+
+
 end;
+
 
 destructor TFrame2.Destroy;
 begin

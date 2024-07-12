@@ -3,7 +3,7 @@ object Form4: TForm4
   Top = 0
   Caption = 'Form4'
   ClientHeight = 442
-  ClientWidth = 628
+  ClientWidth = 629
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -12,11 +12,39 @@ object Form4: TForm4
   Font.Style = []
   OnCreate = FormCreate
   TextHeight = 15
+  object Label1: TLabel
+    Left = 588
+    Top = 20
+    Width = 34
+    Height = 15
+    Alignment = taRightJustify
+    Caption = 'Label1'
+  end
+  object TrackBar1: TTrackBar
+    Left = 392
+    Top = 0
+    Width = 236
+    Height = 20
+    Hint = 'de'#287'erlendir'
+    HelpType = htKeyword
+    HelpContext = 6
+    ParentCustomHint = False
+    Ctl3D = False
+    Max = 6
+    ParentCtl3D = False
+    ParentShowHint = False
+    PageSize = 1
+    Position = 3
+    ShowHint = True
+    TabOrder = 1
+    TickStyle = tsManual
+    OnChange = TrackBar1Change
+  end
   object RichEdit1: TRichEdit
     Left = 80
-    Top = 24
+    Top = 36
     Width = 548
-    Height = 384
+    Height = 372
     HelpType = htKeyword
     ParentCustomHint = False
     BevelInner = bvNone
@@ -24,7 +52,7 @@ object Form4: TForm4
     BorderStyle = bsNone
     Font.Charset = TURKISH_CHARSET
     Font.Color = clWindowText
-    Font.Height = -12
+    Font.Height = -15
     Font.Name = 'Segoe UI'
     Font.Style = []
     HideSelection = False
@@ -84,7 +112,7 @@ object Form4: TForm4
     DoubleBuffered = False
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -14
+    Font.Height = -15
     Font.Name = 'Segoe UI'
     Font.Orientation = 1
     Font.Pitch = fpFixed
@@ -93,28 +121,14 @@ object Form4: TForm4
     ParentDoubleBuffered = False
     RegularButtonColor = clWhite
     SelectedButtonColor = clMaroon
-    TabOrder = 1
+    TabOrder = 2
     StyleElements = [seFont, seClient]
     OnSelectedCategoryChange = CategoryButtons1SelectedCategoryChange
-  end
-  object TrackBar1: TTrackBar
-    Left = 392
-    Top = 0
-    Width = 236
-    Height = 18
-    HelpType = htKeyword
-    HelpContext = 6
-    Ctl3D = False
-    Max = 8
-    ParentCtl3D = False
-    ParentShowHint = False
-    Position = 4
-    ShowHint = True
-    TabOrder = 3
+    ExplicitHeight = 399
   end
   object Panel1: TPanel
     Left = 65
-    Top = 0
+    Top = 1
     Width = 16
     Height = 445
     BevelOuter = bvNone
@@ -123,7 +137,7 @@ object Form4: TForm4
   object Button1: TButton
     Left = 0
     Top = 408
-    Width = 628
+    Width = 629
     Height = 34
     Margins.Left = 0
     Margins.Top = 0
@@ -131,16 +145,25 @@ object Form4: TForm4
     Margins.Bottom = 0
     Align = alBottom
     Caption = 'Button1'
-    TabOrder = 2
+    TabOrder = 3
+    OnClick = Button1Click
+    ExplicitTop = 399
+    ExplicitWidth = 623
   end
   object Edit1: TEdit
     Left = 81
-    Top = 0
+    Top = 1
     Width = 313
-    Height = 23
+    Height = 34
     BevelInner = bvNone
     BevelOuter = bvNone
     BorderStyle = bsNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 5
     TextHint = 'Konu'
   end

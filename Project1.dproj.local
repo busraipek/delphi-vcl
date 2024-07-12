@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.975,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.741,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.266,C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.261,C:\Users\90505\Desktop\my-project\delphi-vcl\Unit3.pas=</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.264,C:\Users\90505\Documents\Embarcadero\Studio\Projects\database.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.249,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.698,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.882,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.747,=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.275,C:\Users\90505\Desktop\my-project\delphi-vcl\Unit1.dfm=C:\Users\90505\Desktop\my-project\delphi-vcl\translate.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.741,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.975,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.331,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.975,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.264,C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\database.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.832,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.737,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.770,C:\Users\90505\Desktop\my-project\delphi-vcl\Unit2.pas=C:\Users\90505\Desktop\my-project\delphi-vcl\note.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.770,C:\Users\90505\Desktop\my-project\delphi-vcl\Unit2.dfm=C:\Users\90505\Desktop\my-project\delphi-vcl\note.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.747,=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.069,=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.275,C:\Users\90505\Desktop\my-project\delphi-vcl\translate.dfm=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit1.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.770,C:\Users\90505\Desktop\my-project\delphi-vcl\note.dfm=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit2.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.795,C:\Users\90505\Documents\Embarcadero\Studio\Projects\homepage.dfm=C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.266,C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.275,C:\Users\90505\Desktop\my-project\delphi-vcl\translate.pas=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.770,C:\Users\90505\Desktop\my-project\delphi-vcl\note.pas=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.266,C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.dfm=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.795,C:\Users\90505\Documents\Embarcadero\Studio\Projects\homepage.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.115,C:\Users\90505\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.101,C:\Users\90505\Documents\Embarcadero\Studio\Projects\TranslateService.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.331,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.765,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.975,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.264,C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\90505\Documents\Embarcadero\Studio\Projects\database.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.215,C:\Users\90505\Desktop\my-project\delphi-vcl\Unit4.dfm=C:\Users\90505\Desktop\my-project\delphi-vcl\writing.dfm</Transaction>
     <Transaction>1899.12.30 00:00:00.000.984,=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit4.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.264,C:\Users\90505\Documents\Embarcadero\Studio\Projects\database.dfm=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
-    <Transaction>2024.07.12 20:28:05.170,=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit4.pas</Transaction>
-    <Transaction>2024.07.12 20:34:08.215,C:\Users\90505\Desktop\my-project\delphi-vcl\writing.dfm=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit4.dfm</Transaction>
-    <Transaction>2024.07.12 20:34:08.215,C:\Users\90505\Desktop\my-project\delphi-vcl\writing.pas=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.795,C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\homepage.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.795,C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.dfm=C:\Users\90505\Documents\Embarcadero\Studio\Projects\homepage.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.275,C:\Users\90505\Desktop\my-project\delphi-vcl\Unit1.pas=C:\Users\90505\Desktop\my-project\delphi-vcl\translate.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.115,C:\Users\90505\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.698,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.882,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.101,C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas=C:\Users\90505\Documents\Embarcadero\Studio\Projects\TranslateService.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.249,=C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.170,=C:\Users\90505\Desktop\my-project\delphi-vcl\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.215,C:\Users\90505\Desktop\my-project\delphi-vcl\Unit4.pas=C:\Users\90505\Desktop\my-project\delphi-vcl\writing.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.266,C:\Users\90505\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\90505\Documents\Embarcadero\Studio\Projects\anasayfa.dfm</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="database.pas"/>

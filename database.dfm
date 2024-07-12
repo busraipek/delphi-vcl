@@ -12,18 +12,94 @@ object Form2: TForm2
   Font.Style = []
   TextHeight = 15
   object ADOConnection1: TADOConnection
+    Connected = True
     ConnectionString = 
       'Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security ' +
       'Info=False;User ID="";Initial Catalog=delphi;Data Source=(locald' +
       'b)\MSSQLLocalDB;Initial File Name="";Server SPN="";Authenticatio' +
       'n="";Access Token=""'
+    Mode = cmReadWrite
     Provider = 'MSOLEDBSQL.1'
     Left = 112
     Top = 232
   end
-  object ADOQuery1: TADOQuery
+  object select: TADOQuery
+    Connection = ADOConnection1
+    CursorType = ctStatic
     Parameters = <>
-    Left = 176
-    Top = 104
+    SQL.Strings = (
+      'select renk,tarih,durum,konu,devam from note')
+    Left = 104
+    Top = 24
+  end
+  object insert: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <
+      item
+        Name = 'renk'
+        Attributes = [paSigned, paNullable]
+        DataType = ftInteger
+        Precision = 10
+        Size = 4
+        Value = Null
+      end
+      item
+        Name = 'tarih'
+        Attributes = [paNullable]
+        DataType = ftDateTime
+        Precision = 10
+        Size = 6
+        Value = Null
+      end
+      item
+        Name = 'durum'
+        Attributes = [paNullable]
+        DataType = ftWideString
+        NumericScale = 255
+        Precision = 255
+        Size = 20
+        Value = Null
+      end
+      item
+        Name = 'konu'
+        Attributes = [paNullable]
+        DataType = ftWideString
+        NumericScale = 255
+        Precision = 255
+        Size = 100
+        Value = Null
+      end
+      item
+        Name = 'devam'
+        Attributes = [paNullable]
+        DataType = ftWideString
+        NumericScale = 255
+        Precision = 255
+        Size = 2000
+        Value = Null
+      end>
+    Prepared = True
+    SQL.Strings = (
+      'insert into note (renk,tarih,durum,konu,devam)'
+      'values'
+      '(:renk,:tarih,:durum,:konu,:devam)')
+    Left = 168
+    Top = 24
+  end
+  object ADODataSet1: TADODataSet
+    Connection = ADOConnection1
+    DataSource = DataSource1
+    Parameters = <
+      item
+        Value = Null
+      end>
+    Prepared = True
+    Left = 232
+    Top = 96
+  end
+  object DataSource1: TDataSource
+    DataSet = select
+    Left = 312
+    Top = 200
   end
 end

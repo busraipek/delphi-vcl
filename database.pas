@@ -10,7 +10,10 @@ uses
 type
   TForm2 = class(TForm)
     ADOConnection1: TADOConnection;
-    ADOQuery1: TADOQuery;
+    select: TADOQuery;
+    insert: TADOQuery;
+    ADODataSet1: TADODataSet;
+    DataSource1: TDataSource;
   private
     { Private declarations }
   public

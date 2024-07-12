@@ -4,20 +4,43 @@ object Frame2: TFrame2
   Width = 745
   Height = 550
   TabOrder = 0
-  object RichEdit1: TRichEdit
-    Left = 208
-    Top = 120
-    Width = 185
-    Height = 89
-    Font.Charset = TURKISH_CHARSET
+  object ComboBox1: TComboBox
+    Left = 16
+    Top = 16
+    Width = 145
+    Height = 23
+    TabOrder = 0
+    Text = 'ComboBox1'
+  end
+  object DatePicker1: TDatePicker
+    Left = 595
+    Top = 0
+    Date = 45485.000000000000000000
+    DateFormat = 'd/mm/yyyy'
+    Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -12
+    Font.Height = -20
     Font.Name = 'Segoe UI'
     Font.Style = []
-    Lines.Strings = (
-      'RichEdit1')
+    TabOrder = 1
+  end
+  object StringGrid1: TStringGrid
+    Left = 0
+    Top = 88
+    Width = 745
+    Height = 462
+    BorderStyle = bsNone
+    Ctl3D = False
+    DefaultColWidth = 145
+    FixedCols = 0
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected, goRowSelect, goFixedRowDefAlign]
+    ParentCtl3D = False
     ParentFont = False
-    SpellChecking = True
-    TabOrder = 0
+    TabOrder = 2
   end
 end
