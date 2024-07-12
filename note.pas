@@ -7,17 +7,13 @@ uses
   Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ColorGrd,
   Vcl.StdCtrls, Vcl.ExtCtrls, VCLTee.TeCanvas, Vcl.ActnMan, Vcl.ActnColorMaps,
   Vcl.JumpList, Vcl.ComCtrls, Vcl.Grids, Vcl.ValEdit, Vcl.ActnList,
-  System.Actions, Vcl.StdActns;
+  System.Actions, Vcl.StdActns, Data.Bind.EngExt, Vcl.Bind.DBEngExt,
+  System.Rtti, System.Bindings.Outputs, Vcl.Bind.Editors, Data.Bind.Components,
+  Vcl.CustomizeDlg;
 
 type
   TFrame2 = class(TFrame)
-    ActionList1: TActionList;
-    DialogColorSelect1: TColorSelect;
-    Action1: TAction;
-    Action2: TAction;
-    ListBox1: TListBox;
-    ListView1: TListView;
-    Action3: TAction;
+    RichEdit1: TRichEdit;
   private
     { Private declarations }
   public
@@ -34,7 +30,7 @@ implementation
 constructor TFrame2.Create(AOwner: TComponent);
 begin
   inherited Create(AOwner);
-  ListView1.Action := Action1;
+
 end;
 
 destructor TFrame2.Destroy;

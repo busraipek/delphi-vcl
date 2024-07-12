@@ -48,6 +48,8 @@ object Form1: TForm1
     Font.Style = [fsUnderline]
     ItemHeight = 45
     Items.Strings = (
+      #199'eviri'
+      'Not'
       'Film'
       'G'#252'nl'#252'k'
       'Nedenler')

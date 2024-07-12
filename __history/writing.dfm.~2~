@@ -1,0 +1,107 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 442
+  ClientWidth = 628
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OnCreate = FormCreate
+  TextHeight = 15
+  object RichEdit1: TRichEdit
+    Left = 87
+    Top = 0
+    Width = 541
+    Height = 408
+    Align = alRight
+    BevelInner = bvNone
+    BevelOuter = bvNone
+    BorderStyle = bsNone
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    Lines.Strings = (
+      'RichEdit1')
+    ParentFont = False
+    TabOrder = 0
+  end
+  object CategoryButtons1: TCategoryButtons
+    Left = 0
+    Top = 0
+    Width = 65
+    Height = 408
+    Margins.Left = 0
+    Margins.Top = 0
+    Margins.Right = 0
+    Margins.Bottom = 0
+    Align = alLeft
+    BevelInner = bvNone
+    BevelOuter = bvNone
+    BorderStyle = bsNone
+    ButtonFlow = cbfVertical
+    ButtonHeight = 5
+    ButtonWidth = 30
+    ButtonOptions = [boGradientFill, boShowCaptions]
+    Categories = <
+      item
+        Caption = 'mavi'
+        Color = clTeal
+        Collapsed = True
+        Items = <>
+      end
+      item
+        Caption = 'ye'#351'il'
+        Color = 15395839
+        Collapsed = False
+        Items = <>
+      end>
+    DoubleBuffered = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Quality = fqClearType
+    ParentDoubleBuffered = False
+    RegularButtonColor = clWhite
+    SelectedButtonColor = clMaroon
+    TabOrder = 1
+    OnSelectedCategoryChange = CategoryButtons1SelectedCategoryChange
+    ExplicitLeft = -3
+  end
+  object TrackBar1: TTrackBar
+    Left = 392
+    Top = 0
+    Width = 236
+    Height = 25
+    TabOrder = 3
+  end
+  object Panel1: TPanel
+    Left = 65
+    Top = 0
+    Width = 16
+    Height = 445
+    BevelOuter = bvNone
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 0
+    Top = 408
+    Width = 628
+    Height = 34
+    Margins.Left = 0
+    Margins.Top = 0
+    Margins.Right = 0
+    Margins.Bottom = 0
+    Align = alBottom
+    Caption = 'Button1'
+    TabOrder = 2
+  end
+end

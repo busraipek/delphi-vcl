@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls,
-  Vcl.ExtCtrls, translate,note,
+  Vcl.ExtCtrls, translate,note,writing,
   Vcl.WinXPickers, Vcl.Menus;
 
 type
@@ -20,31 +20,25 @@ type
     translate: translate.TFrame1;
     note : note.TFrame2;
     CurrentFrame: TFrame;
-    ExFrame : TFrame;
+    write : writing.TForm4;
     procedure RemoveCurrentFrame;
   public
     { Public declarations }
   end;
-
 var
   Form1: TForm1;
-
 implementation
-
 {$R *.dfm}
-
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   ListBox1.Margins.Left := 0;
   ListBox1.Margins.Top := 0;
   ListBox1.Margins.Bottom := 0;
-
   translate := TFrame1.Create(Self);
   translate.Parent := Panel1;
   translate.Align := alClient;
   CurrentFrame := translate;
 end;
-
 procedure TForm1.RemoveCurrentFrame();
 begin
   if Assigned(CurrentFrame) then
@@ -53,11 +47,9 @@ begin
     FreeAndNil(CurrentFrame);
   end;
 end;
-
 procedure TForm1.ListBox1Click(Sender: TObject);
 begin
   RemoveCurrentFrame;
-
   if (ListBox1.ItemIndex = 0) then
   begin
     translate := TFrame1.Create(Self);
@@ -74,11 +66,13 @@ begin
   end
   else if (ListBox1.ItemIndex = 2) then
   begin
-    translate := TFrame1.Create(Self);
-    translate.Parent := Panel1;
-    translate.Align := alClient;
-    CurrentFrame := translate;
+{    write := TForm4.Create(Self);
+    write.Parent := Panel1;
+        write.Align := alClient;
+            CurrentFrame := write;}
+
+    write := TForm4.Create(Self) ;
+    write.Show();
   end;
 end;
-
 end.

@@ -1,0 +1,45 @@
+unit note;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ColorGrd,
+  Vcl.StdCtrls, Vcl.ExtCtrls, VCLTee.TeCanvas, Vcl.ActnMan, Vcl.ActnColorMaps,
+  Vcl.JumpList, Vcl.ComCtrls, Vcl.Grids, Vcl.ValEdit, Vcl.ActnList,
+  System.Actions, Vcl.StdActns;
+
+type
+  TFrame2 = class(TFrame)
+    ActionList1: TActionList;
+    DialogColorSelect1: TColorSelect;
+    Action1: TAction;
+    Action2: TAction;
+    ListBox1: TListBox;
+    ListView1: TListView;
+    Action3: TAction;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    constructor Create(AOwner: TComponent); override;
+    destructor Destroy; override;
+  end;
+
+implementation
+
+{$R *.dfm}
+
+
+constructor TFrame2.Create(AOwner: TComponent);
+begin
+  inherited Create(AOwner);
+  ListView1.Action := Action1;
+end;
+
+destructor TFrame2.Destroy;
+begin
+
+  inherited Destroy;
+end;
+end.
