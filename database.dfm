@@ -24,6 +24,7 @@ object Form2: TForm2
     Top = 232
   end
   object select: TADOQuery
+    Active = True
     Connection = ADOConnection1
     CursorType = ctStatic
     Parameters = <>
@@ -87,12 +88,12 @@ object Form2: TForm2
     Top = 24
   end
   object ADODataSet1: TADODataSet
+    Active = True
     Connection = ADOConnection1
+    CursorType = ctStatic
+    CommandText = 'select * from note'
     DataSource = DataSource1
-    Parameters = <
-      item
-        Value = Null
-      end>
+    Parameters = <>
     Prepared = True
     Left = 232
     Top = 96

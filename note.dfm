@@ -43,4 +43,8 @@ object Frame2: TFrame2
     ParentFont = False
     TabOrder = 2
   end
+  object DataSource1: TDataSource
+    Left = 232
+    Top = 56
+  end
 end
