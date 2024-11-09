@@ -17,6 +17,8 @@ type
     DatePicker1: TDatePicker;
     StringGrid1: TStringGrid;
     procedure ListNotes;
+    procedure StringGrid1SelectCell(Sender: TObject; ACol, ARow: Integer;
+      var CanSelect: Boolean);
   private
     { Private declarations }
   public
@@ -31,8 +33,6 @@ implementation
 
 
 constructor TFrame2.Create(AOwner: TComponent);
-var
-date1 :TDate;
 begin
   inherited Create(AOwner);
 
@@ -42,7 +42,6 @@ begin
   StringGrid1.Cols[3].Text := 'konu';
   StringGrid1.Cols[4].Text := 'devam';
 
-  DatePicker1.
   listnotes;
 end;
 
@@ -73,6 +72,12 @@ begin
 
 end;
 
+
+procedure TFrame2.StringGrid1SelectCell(Sender: TObject; ACol, ARow: Integer;
+  var CanSelect: Boolean);
+begin
+
+end;
 
 destructor TFrame2.Destroy;
 begin

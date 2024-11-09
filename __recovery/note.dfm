@@ -15,8 +15,8 @@ object Frame2: TFrame2
   object DatePicker1: TDatePicker
     Left = 595
     Top = 0
-    Date = 45539.000000000000000000
-    DateFormat = 'dd/mm/yyyy'
+    Date = 45485.000000000000000000
+    DateFormat = 'd/mm/yyyy'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -20
@@ -42,5 +42,6 @@ object Frame2: TFrame2
     ParentCtl3D = False
     ParentFont = False
     TabOrder = 2
+    OnSelectCell = StringGrid1SelectCell
   end
 end
